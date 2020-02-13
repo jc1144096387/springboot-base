@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     // @RequestMapping("/test") 提供路由信息，"/test" 路径的 HTTP Request 都会被映射到 test() 方法上进行处理。
     @RequestMapping("/test")
-    String test(String name){
-        return "test, " + name;
+    public String test(String name){
+        return "test,你好， " + name;
     }
 }
