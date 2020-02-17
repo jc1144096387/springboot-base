@@ -13,4 +13,8 @@
 - maven
   + settings.xml  下载maven并配置环境变量后，用该配置文件覆盖原配置文件，并修改localRepository。
   + 
-- 
+- springboot
+  + 配置文件编码格式
+  + 热更新
+  + 整合swagger TODO：抽个时间专门学习swagger的详细内容，并写好文档
+  + 整合websocket
